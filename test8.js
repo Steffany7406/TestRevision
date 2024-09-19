@@ -11,7 +11,7 @@ do {
 
 /*
 var count = 0
-var num = 20
+var num = parseInt(prompt("Digite um número!"))
 while (count !== num) {
   if (num > 100){
     num++
