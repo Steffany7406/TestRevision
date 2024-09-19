@@ -1,4 +1,9 @@
-var count = 0
+let num = 0;
+while (num <= 100){
+num = parseInt(prompt("Digite um maior que 100:")) //O usuario insere o número até que seja maior 100
+} alert("Você digitou: ", num);
+
+/*var count = 0
 do {
   var num = parseInt(prompt("Digite um número!"))
   if (num > 100){
@@ -7,7 +12,7 @@ do {
   }
 } while (num < 100) {
   alert("Existem números maiores que 100!")
-}
+}*/
 
 /*
 var count = 0
